@@ -1,0 +1,70 @@
+@import "monday-ui-react-core/dist/main.css";
+
+.vibe {
+  $thin: 100;
+  $light: 300;
+  $regular: 400;
+  $medium: 500;
+  $bold: 700;
+  $black: 900;
+
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+
+  h1 {
+    font-size: 32px;
+    font-weight: $bold;
+    color: var(--primary-text-color);
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: $bold;
+    color: var(--primary-text-color);
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: $light;
+    color: var(--primary-text-color);
+  }
+
+  h4 {
+    font-size: 18px;
+    font-weight: $bold;
+    color: var(--primary-text-color);
+  }
+
+  h5 {
+    font-size: 16px;
+    font-weight: $bold;
+    color: var(--primary-text-color);
+  }
+
+  p  {
+    font-size: 16px;
+    font-weight: $regular;
+    color: var(--primary-text-color);
+  }
+
+  a  {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: $light;
+    color: var(--color-link_color);
+
+    cursor: pointer;
+  }
+
+  .text {
+    font-size: 14px;
+    font-weight: $regular;
+    color: var(--primary-text-color);
+  }
+
+  .subtext {
+    font-size: 14px;
+    font-weight: $regular;
+    color: var(--secondary-text-color);
+  }
+
+}

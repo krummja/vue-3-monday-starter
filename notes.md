@@ -1,0 +1,3 @@
+- Limit textarea resize
+- Create modal popup if fields missing
+- Handle required fields
